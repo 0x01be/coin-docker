@@ -1,4 +1,4 @@
-FROM 0x01be/coin as build
+FROM 0x01be/coin:build as build
 
 FROM alpine
 
