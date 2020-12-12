@@ -1,6 +1,6 @@
 FROM 0x01be/swig:3.0 as swig
 
-FROM alpine as builder
+FROM 0x01be/base as build
 
 WORKDIR /coinbrew
 ENV REVISION=master \
